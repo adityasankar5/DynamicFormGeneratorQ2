@@ -5,7 +5,15 @@ export interface User {
 
 export interface FormField {
   fieldId: string;
-  type: "text" | "tel" | "email" | "textarea" | "date" | "dropdown" | "radio" | "checkbox";
+  type:
+    | "text"
+    | "tel"
+    | "email"
+    | "textarea"
+    | "date"
+    | "dropdown"
+    | "radio"
+    | "checkbox";
   label: string;
   placeholder?: string;
   required: boolean;
